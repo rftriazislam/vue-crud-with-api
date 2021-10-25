@@ -37,7 +37,9 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Add Category</a>
-            <a class="dropdown-item" href="#">Lists Category</a>
+            <router-link to="/validate" class="dropdown-item">
+              Validate
+            </router-link>
           </div>
         </li>
         <li class="nav-item">
